@@ -41,6 +41,11 @@ p, li {
     color: var(--darkest);
 }
 
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 .title {
     color: var(--accent);
     font-family: dessert-script, script;
