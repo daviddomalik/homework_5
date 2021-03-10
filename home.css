@@ -37,6 +37,11 @@
     align-items: center;
 }
 
+#row3:hover, #row3:hover h1 {
+    background-color: var(--accent);
+    color: var(--darkest);
+}
+
 #row3 h1{
     color: var(--lightest);
 }

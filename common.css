@@ -6,19 +6,10 @@
     --lightest: #D6D8CD;
     --lightGray: #F2F2F2;
 }
-
+/* Tags */
 body {
     background-color: var(--lightGray);
     margin: 0px;
-}
-
-#header {
-    padding: 16px;
-    background-color: var(--darkest);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,7 +24,7 @@ h1 {
     font-size: 30px;
 }
 
-p, li {
+p, li, label, button, select {
     font-family: josefin-sans, sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -44,6 +35,20 @@ p, li {
 a {
     color: inherit;
     text-decoration: inherit;
+}
+
+a:hover {
+    color: var(--lightest);
+}
+
+/* Header */
+#header {
+    padding: 16px;
+    background-color: var(--darkest);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
@@ -65,19 +70,7 @@ a {
     text-transform: uppercase;
 }
 
-.button1 {
-    padding: 10px 16px 10px 16px;
-    background-color: var(--accent);
-    width: min-content;
-    white-space: nowrap;
-    border: 4px solid var(--darkest);
-}
-
-.button1 p {
-    margin: 0px;
-    font-weight: 400;
-}
-
+/* Footer */
 #footer {
     background-color: var(--darkest);
     padding: 20px 60px 20px 60px;
@@ -102,4 +95,19 @@ a {
 
 #footer ul li.active {
     color: var(--accent);
+}
+
+/* Elements */
+button {
+    padding: 10px 16px 10px 16px;
+    background-color: var(--accent);
+    width: min-content;
+    white-space: nowrap;
+    border: 4px solid var(--darkest);
+    font-weight: 400;
+}
+
+button:hover {
+    /* background-color: var(--darker); */
+    color: var(--lightest);
 }
