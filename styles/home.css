@@ -35,11 +35,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.2s;
 }
 
 #row3:hover, #row3:hover h1 {
     background-color: var(--accent);
     color: var(--darkest);
+    transition: 0.2s;
 }
 
 #row3 h1{
