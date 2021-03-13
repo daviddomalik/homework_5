@@ -9,8 +9,13 @@
 
 /* Left column */
 #image {
-    background-image: url("../img/rolls1.jpg");
-    background-size: cover;
+    padding: 0px;
+}
+
+#image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Tags */
