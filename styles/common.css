@@ -1,3 +1,4 @@
+/* Color theme */
 :root {
     --darkest: #26180a;
     --darker: #5A361C;
@@ -6,6 +7,7 @@
     --lightest: #D6D8CD;
     --lightGray: #F2F2F2;
 }
+
 /* Tags */
 body {
     background-color: var(--lightGray);
@@ -110,6 +112,5 @@ button {
 }
 
 button:hover {
-    /* background-color: var(--darker); */
     color: var(--lightest);
 }

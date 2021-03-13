@@ -20,16 +20,19 @@
     justify-content: center;
 }
 
+/* About the Store */
 #row1 .text {
     margin-left: 60px;
     margin-right: 30px;
 }
 
+/* Featured Roll */
 #row2 .text {
     margin-left: 30px;
     margin-right: 60px;
 }
 
+/* Link to Menu */
 #row3 {
     background-color: var(--darker);
     display: flex;
