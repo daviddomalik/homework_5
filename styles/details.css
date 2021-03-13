@@ -21,6 +21,7 @@
 /* Tags */
 h1 {
     font-size: 48px;
+    margin-top: 24px;
     margin-bottom: 32px;
 }
 
@@ -34,6 +35,10 @@ button {
     font-weight: 400;
     height: min-content;
     margin: 20px;
+}
+
+#content a:hover {
+    color: var(--accent);
 }
 
 /* Middle column */
